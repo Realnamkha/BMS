@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to Everything
+    name: Deploy to Everythingg
     runs-on: ubuntu-latest
 
     steps:
