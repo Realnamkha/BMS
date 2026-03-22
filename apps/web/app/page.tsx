@@ -2,7 +2,7 @@ import { prismaClient } from "@repo/db/client";
 export default async function Home() {
   const user = await prismaClient.user.findFirst();
   return (
-    <div>
+    <div className="bg-red-300">
       <h2>Hello world For all</h2>
       {user?.name}
       {user?.email}
